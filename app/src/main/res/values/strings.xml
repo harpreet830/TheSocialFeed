@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TheSocialFeed</string>
+    <string name="load_data_from_local_database">Load data from local Database</string>
+    <string name="live_data_feed_not_available">Live data feed is not available at the moment. Please check your network connectivity or Load local data from the database.</string>
+    <string name="data_not_available">Sorry! Feed is not available at the moment. Please try connecting to an internet source or check after some time</string>
+    <string name="likes">Likes</string>
+    <string name="shares">Shares</string>
+    <string name="views">Views</string>
+    <string name="load_data_db">Load data from local Db?</string>
+    <string name="click_to_load">Click to load</string>
+</resources>

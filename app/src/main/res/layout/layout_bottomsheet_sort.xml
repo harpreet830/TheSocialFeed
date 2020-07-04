@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tvLikes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/size_16dp"
+        android:layout_marginTop="@dimen/size_16dp"
+        app:drawableLeftCompat="@drawable/ic_thumb_up_alt_24px"
+        android:drawablePadding="@dimen/size_10dp"
+        android:text="Likes"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_16sp"
+        app:layout_constraintEnd_toStartOf="@+id/rbLikes"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioButton
+        android:id="@+id/rbLikes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:layout_marginEnd="@dimen/size_16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvLikes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvLikes" />
+
+    <TextView
+        android:id="@+id/tvShares"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_16dp"
+        android:layout_marginTop="@dimen/size_8dp"
+        app:drawableLeftCompat="@drawable/ic_share_24px"
+        android:drawablePadding="@dimen/size_10dp"
+        android:text="Shares"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_16sp"
+        app:layout_constraintEnd_toStartOf="@+id/rbShares"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLikes" />
+
+    <RadioButton
+        android:id="@+id/rbShares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/size_16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvShares"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="false"
+        app:layout_constraintTop_toTopOf="@+id/tvShares" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_16dp"
+        android:layout_marginTop="@dimen/size_8dp"
+         app:drawableLeftCompat="@drawable/ic_schedule_24px"
+        android:drawablePadding="@dimen/size_10dp"
+        android:text="Date"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_16sp"
+        app:layout_constraintEnd_toStartOf="@+id/rbDates"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvShares" />
+
+    <RadioButton
+        android:id="@+id/rbDates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/size_16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="false"
+        app:layout_constraintTop_toTopOf="@+id/tvDate" />
+
+    <TextView
+        android:id="@+id/tvViews"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/size_16dp"
+        android:layout_marginTop="@dimen/size_8dp"
+        android:layout_marginRight="@dimen/size_16dp"
+        android:layout_marginBottom="@dimen/size_16dp"
+        app:drawableLeftCompat="@drawable/ic_visibility_24px"
+        android:drawablePadding="@dimen/size_10dp"
+        android:text="Views"
+        android:textColor="@color/black"
+        android:textSize="@dimen/size_16sp"
+        app:layout_constraintEnd_toStartOf="@+id/rbViews"
+        app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate" />
+
+    <RadioButton
+        android:id="@+id/rbViews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/size_16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvViews"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:clickable="false"
+        app:layout_constraintTop_toTopOf="@+id/tvViews" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

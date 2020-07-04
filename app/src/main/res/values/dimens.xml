@@ -1,0 +1,86 @@
+<resources>
+
+    <integer name="qr_scanner_border_width">4</integer>
+    <integer name="qr_scanner_border_length">80</integer>
+    <integer name="scanner_rect_width">230</integer>
+    <integer name="scanner_rect_height">230</integer>
+
+    <!-- margin specifics -->
+
+    <dimen name="margin_extra_small">1dp</dimen>
+    <dimen name="margin_very_small">2dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_moderate">10dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_very_large">20dp</dimen>
+
+    <dimen name="margin_very_very_large">32dp</dimen>
+    <dimen name="margin_extra_large">40dp</dimen>
+    <dimen name="margin_extremely_large">64dp</dimen>
+
+    <!-- padding specifics -->
+
+    <dimen name="padding_extra_small">0.8dp</dimen>
+    <dimen name="padding_very_small">2dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_moderate">10dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_very_large">32dp</dimen>
+    <dimen name="padding_extra_large">40dp</dimen>
+    <dimen name="padding_xxx_large">50dp</dimen>
+
+    <!-- text size -->
+
+    <dimen name="text_size_very_small">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_moderate">18sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+    <dimen name="text_size_very_large">22sp</dimen>
+    <dimen name="text_size_extra_large">24sp</dimen>
+    <dimen name="text_size_xl_large">30sp</dimen>
+
+    <dimen name="text_size_xxx_large">35sp</dimen>
+
+
+    <!-- margin specifics -->
+    <dimen name="size_point8dp">0.8dp</dimen>
+    <dimen name="size_1dp">1dp</dimen>
+    <dimen name="size_2dp">2dp</dimen>
+    <dimen name="size_4dp">4dp</dimen>
+    <dimen name="size_8dp">8dp</dimen>
+    <dimen name="size_10dp">10dp</dimen>
+    <dimen name="size_14dp">14dp</dimen>
+    <dimen name="size_16dp">16dp</dimen>
+    <dimen name="size_18dp">18dp</dimen>
+    <dimen name="size_20dp">20dp</dimen>
+    <dimen name="size_24dp">24dp</dimen>
+    <dimen name="size_32dp">32dp</dimen>
+    <dimen name="size_40dp">40dp</dimen>
+    <dimen name="size_48dp">48dp</dimen>
+    <dimen name="size_50dp">50dp</dimen>
+    <dimen name="size_64dp">64dp</dimen>
+
+    <!-- text size -->
+    <dimen name="size_10sp">10sp</dimen>
+    <dimen name="size_12sp">12sp</dimen>
+    <dimen name="size_14sp">14sp</dimen>
+    <dimen name="size_16sp">16sp</dimen>
+    <dimen name="size_18sp">18sp</dimen>
+    <dimen name="size_20sp">20sp</dimen>
+    <dimen name="size_22sp">22sp</dimen>
+    <dimen name="size_24sp">24sp</dimen>
+    <dimen name="size_30sp">30sp</dimen>
+    <dimen name="size_35sp">35sp</dimen>
+    <dimen name="size_6dp">6dp</dimen>
+    <dimen name="size_point5dp">0.5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>

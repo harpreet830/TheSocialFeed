@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme_NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/yellow_app</item>
+        <item name="colorPrimaryDark">@color/grey</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="alertDialogTheme">@style/AlertDialogTheme</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/red_c52929</item>
+        <item name="android:textSize">@dimen/size_16sp</item>
+        <item name="android:splitMotionEvents">false</item>
+    </style>
+
+    <!--used for progress dialog -->
+    <style name="CenterDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+
+
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black_39373b">#39373B</color>
+    <color name="green_4ae845">#4ae845</color>
+    <color name="green_BDFCBC">#BDFCBC</color>
+    <color name="colorText">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey_ededed">#ededed</color>
+    <color name="red_f83424">#f83424</color>
+    <color name="white_fffeff">#fffeff</color>
+    <color name="light_grey_E0E0E0">#E0E0E0</color>
+    <color name="grey_a9a9a9">#A9A9A9</color>
+    <color name="green_09bc8a">#09bc8a</color>
+    <color name="grey_f2f2f2">#f2f2f2</color>
+
+    <!--App Colors -->
+    <color name="yellow_app">#f5e418</color>
+
+    <color name="yellow_FCF6C2">#FCF6C2</color>
+
+    <color name="yellow_F0E887">#F0E887</color>
+    <color name="black_app">#39373B</color>
+    <color name="green_A700">#00c853</color>
+    <color name="dark_green">#f5099105</color>
+    <color name="grey_dddddd">#dddddd</color>
+    <color name="red_c52929">#c52929</color>
+
+    <color name="red_ECA1A1">#FFCFCF</color>
+
+    <color name="grey">#7f7f7f</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue_4177f6">#4177f6</color>
+
+    <color name="blue_ACC2F5">#ACC2F5</color>
+
+    <color name="trans">#36000000</color>
+    <color name="whiet_light">#36EBDEDE</color>
+    <color name="black_605F63">#605F63</color>
+    <color name="yellow_D9CA1D">#D9CA1D</color>
+    <color name="gray_19000000">#19000000</color>
+
+    <color name="map_top_color">#09000000</color>
+    <color name="yellow_fffddf">#fffddf</color>
+    <color name="grey_d5d5d5">#d5d5d5</color>
+    <color name="whiet_cream">#F8F6F2</color>
+    <color name="black_title">#373535</color>
+
+</resources>
+
